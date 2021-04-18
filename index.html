@@ -1,0 +1,254 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/wow.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-fixed">
+            <h1 class="header-logo"><img src="image/logo.png" alt="極楽亭"></h1>
+            <button class="nav-btn" id="nav-btn" type="button" aria-label="メニュー"><span></span><span></span><span></span></button>
+        </div>
+        <div class="nav header-nav" id="nav">
+            <nav class="nav-wrap">
+                <ul class="nav-list">
+                    <li class="item"><a href="#">レジャー予約</a></li>
+                    <li class="item"><a href="#">観光情報</a></li>
+                    <li class="item"><a href="#">よくあるご質問</a></li>
+                    <li class="item"><a href="#">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="top">
+            <div class="top-title">自然を存分に味わえる<br>日本最大級のレジャー施設</div>
+        </div>
+
+        <section class="features cmn-section -black">
+            <div class="inner wow animate__animated animate__fadeIn" >
+                <h2 class="cmn-title">
+                    <span class="main">施設の特徴</span>
+                    <span class="sub">features</span>
+                </h2>
+                <div class="features-cont">
+                    <ul class="features-list">
+                        <li class="features-item wow animate__animated animate__fadeIn" data-wow-offset="100" >
+                            <div class="text">
+                                <div class="title">野外ライブが行える広大な敷地面積</div>
+                                <p class="desc">当施設は東京ドーム20個分の広大な土地があります。夏や年末はライブで盛り上がります。</p>
+                                <div class="foatures-link cmn-link"><a href="#">ライブの詳細</a></div>
+                            </div>
+                            <div class="image"><img src="image/live.png" alt=""></div>
+                        </li>
+                        <li class="features-item wow animate__animated animate__fadeIn" data-wow-offset="100">
+                            <div class="text">
+                                <div class="title">大自然を体いっぱいに感じられる多数のアスレチック</div>
+                                <p class="desc">大人から子供まで楽しめる迫力満点のアスレチックが多数あります。水上コースに挑戦する際には着替え必須！？</p>
+                                <div class="foatures-link cmn-link"><a href="#">アスレチックの詳細</a></div>
+                            </div>
+                            <div class="image"><img src="image/athletic.png" alt=""></div>
+                        </li>
+                        <li class="features-item wow animate__animated animate__fadeIn" data-wow-offset="100">
+                            <div class="text">
+                                <div class="title">関東随一の広さを誇る屋外プール</div>
+                                <p class="desc">流れるプールからウォータースライダーまで。年齢制限のある高級エリアもあり！</p>
+                                <div class="foatures-link cmn-link"><a href="#">プールの詳細</a></div>
+                            </div>
+                            <div class="image"><img src="image/pool.png" alt=""></div>
+                        </li>
+                        <li class="features-item wow animate__animated animate__fadeIn" data-wow-offset="100">
+                            <div class="text">
+                                <div class="title">情緒あふれる宿泊施設</div>
+                                <p class="desc">たっぷり楽しんだ後は旅館で心と体をリフレッシュ。貸切の露天ひのき風呂付きのお部屋も用意しております。</p>
+                                <div class="foatures-link cmn-link"><a href="#">旅館の詳細</a></div>
+                            </div>
+                            <div class="image"><img src="image/washitsu.png" alt=""></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="plan cmn-section -black">
+            <div class="inner wow animate__animated animate__fadeIn">
+                <h2 class="cmn-title">
+                    <span class="main">おすすめプラン</span>
+                    <span class="sub">recommend plan</span>
+                </h2>
+                <div class="rec service">
+                    <div class="rec-slick rec-list" id="rec-slick">
+                        <div class="rec-item">
+                            <div class="text">
+                                <div class="title">手ぶらOK！肉も海鮮も豪華バーベキューコース！</div>
+                                <div class="price">お値段：<span>6000円</span> / 人</div>
+                            </div>
+                            <div class="image">
+                                <img src="image/bbq.png" alt="">
+                            </div>
+                        </div>
+                        <div class="rec-item">
+                            <div class="text">
+                                <div class="title">自然を感じよう！ハンモックありのキャンプコース！</div>
+                                <div class="price">お値段：<span>2000円</span> / 人</div>
+                            </div>
+                            <div class="image">
+                                <img src="image/camp.png" alt="">
+                            </div>
+                        </div>
+                        <div class="rec-item">
+                            <div class="text">
+                                <div class="title">シャンパンありの飲み食べ放題！パーティーコース！</div>
+                                <div class="price">お値段：<span>8000円</span> / 人</div>
+                            </div>
+                            <div class="image">
+                                <img src="image/party.png" alt="">
+                            </div>
+                        </div>
+                        <div class="rec-item">
+                            <div class="text">
+                                <div class="title">産地直送！新鮮お寿司コース！（ネタ選べます）</div>
+                                <div class="price">お値段：<span>6000円</span> / 人</div>
+                            </div>
+                            <div class="image">
+                                <img src="image/sushi.png" alt="">
+                            </div>
+                        </div>
+                        <div class="rec-item">
+                            <div class="text">
+                                <div class="title">疲れをしっかり取り除く！ゆったり温泉コース！＜朝食 選択可＞</div>
+                                <div class="price">お値段：<span>6000円</span> / 人</div>
+                            </div>
+                            <div class="image">
+                                <img src="image/onsen.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-wrap">
+                        <ul class="service-list">
+                            <li class="service-item">
+                                <div class="text">
+                                    <div class="title">最低価格保証</div>
+                                    <p class="desc">遊森園の公式ホームページでの予約料金は、どの予約サイトよりも最低価格であることをお約束いたします。</p>
+                                </div>
+                                <div class="image">
+                                    <img src="image/money.png" alt="">
+                                </div>
+                            </li>
+                            <li class="service-item">
+                                <div class="text">
+                                    <div class="title">全客室Wi-Fi無料</div>
+                                    <p class="desc">各エリアに無線LANアクセスポイントを設置。どこからでもWi-Fi接続によるインターネットを利用できます。</p>
+                                </div>
+                                <div class="image">
+                                    <img src="image/wifi.png" alt="">
+                                </div>
+                            </li>
+                            <li class="service-item">
+                                <div class="text">
+                                    <div class="title">会員限定料金</div>
+                                    <p class="desc">会員の方は、会員料金でご宿泊いただけるほか、オンラインクーポンなどの限定メニューもご利用いただけます。</p>
+                                </div>
+                                <div class="image">
+                                    <img src="image/human.png" alt="">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog cmn-section -black">
+            <div class="inner wow animate__animated animate__fadeIn">
+                <h2 class="cmn-title">
+                    <span class="main">ブログ</span>
+                    <span class="sub">blog</span>
+                </h2>
+                <div class="blog-cont">
+                    <dl class="blog-list">
+                        <div class="row">
+                            <dt>お知らせ</dt>
+                            <dd><a href="#">2021年4月、遊森園の温泉がリフォームされました。</a></dd>
+                        </div>
+                        <div class="row">
+                            <dt>お知らせ</dt>
+                            <dd><a href="#">2021年5月より、新アスレチックが誕生！挑戦者求む！</a></dd>
+                        </div>
+                        <div class="row">
+                            <dt>お知らせ</dt>
+                            <dd><a href="#">遊森園、祝10年！</a></dd>
+                        </div>
+                        <div class="row">
+                            <dt>イベント</dt>
+                            <dd><a href="#">2021年1月3日、野外ライブを開催いたします。</a></dd>
+                        </div>
+                        <div class="row">
+                            <dt>採用</dt>
+                            <dd><a href="#">2021年度の採用募集を開始いたしました。</a></dd>
+                        </div>
+                    </dl>
+                    <div class="blog-link cmn-link"><a href="#">もっと見る</a></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq cmn-section -black">
+            <div class="inner wow animate__animated animate__fadeIn">
+                <h2 class="cmn-title">
+                    <span class="main">よくある質問</span>
+                    <span class="sub -faq">faq</span>
+                </h2>
+                <div class="faq-cont">
+                    <ul class="faq-list">
+                        <li class="faq-item">
+                            <a href="javascript:void(0)" class="title js-accordion"><p>Q. 定休日はありますか？</p></a>
+                            <div class="detail"><p>基本的には年中無休ですが、施設の整備のためにお休みをいただく場合がございます。詳しくはスケジュールをご確認ください。</p></div>
+                        </li>
+                        <li class="faq-item">
+                            <a href="javascript:void(0)" class="title js-accordion"><p>Q. 露天風呂付きのお部屋はありますか？</p></a>
+                            <div class="detail"><p>A. 露天風呂付のお部屋は全部で10室ございます。</p></div>
+                        </li>
+                        <li class="faq-item">
+                            <a href="javascript:void(0)" class="title js-accordion"><p>Q. ペットを連れて行きたいのですが可能ですか？</p></a>
+                            <div class="detail"><p>A. 屋外施設はペットOKです。しかし、ペット同伴のご宿泊はお断りさせて頂いております。お車で5分ほどの場所に、一時預かりを行っているペットハウスがございますのでそちらのご利用をお願い致します。</p></div>
+                        </li>
+                        <li class="faq-item">
+                            <a href="javascript:void(0)" class="title js-accordion"><p>Q. 駐車場はありますか？</p></a>
+                            <div class="detail"><p>A. 200台駐車できる無料駐車場がございます。万一、満車の場合はお近くのコインパーキングをご利用ください。（料金はお客様ご負担です。）</p></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="inner wow animate__animated animate__fadeIn">
+            <nav class="nav-wrap">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#">利用規約</a></li>
+                    <li class="nav-item"><a href="#">プライバシーポリシー</a></li>
+                    <li class="nav-item"><a href="#">個人商取引法に基づく表記</a></li>
+                    <li class="nav-item"><a href="#">お問い合わせ</a></li>
+                </ul>
+            </nav>
+            <div class="footer-logo"><img src="image/logo.png" alt="極楽亭"></div>
+            <p class="copyright">Copyright (c) 2021 遊森園 All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
